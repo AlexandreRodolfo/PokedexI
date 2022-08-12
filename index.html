@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pokeballanim.css" />
+    <meta charset="UTF-8" />
+    <title>Pokedex</title>
+  </head>
+
+  <body style="overflow-y: hidden;">
+
+    <div id="page-div">
+      <div class="top-header">
+        <img class="logo" src="images/Pokédex_logo.png" alt="Pokédex" />
+        <input id="quantidade" type="number" placeholder="Informe a quantidade de pokémons que deseja"/>
+      </div>
+      <div class="pokemon-boxes" id="poke-container">
+
+        <div class="center-on-page" id="loadingBall">
+          <div class="pokeball">
+            <div class="pokeball__button"></div>
+          </div>
+        </div>
+        <!-- Contém os pokémons consultados na fetch -->
+      </div>
+    </div>
+
+    <script src="script.js" async></script>
+  </body>
+
+</html>
